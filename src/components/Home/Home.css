@@ -1,0 +1,11 @@
+.curve svg {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 200px;
+    transform: rotateY(180deg);
+}
+
+.curve .shape-fill {
+    fill: #FBD062;
+}
