@@ -3,6 +3,7 @@ import Header from './Header/Header';
 import HeroSection from './HeroSection/HeroSection';
 import './Home.css';
 import Partners from './Partners/Partners';
+import ServiceBanner from './ServiceBanner/ServiceBanner';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
                 </svg>
             </div>
             <Partners />
+            <ServiceBanner />
         </div>
     );
 };
