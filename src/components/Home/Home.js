@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header/Header';
 import HeroSection from './HeroSection/HeroSection';
 import './Home.css';
+import Partners from './Partners/Partners';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
                 </svg>
             </div>
+            <Partners />
         </div>
     );
 };
